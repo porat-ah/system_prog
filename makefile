@@ -10,7 +10,7 @@ mymathd:libmyMath.so
 
 
 mains: main.o libmyMath.a
-	${CC} ${CFLAGS} main.o -lmyMath -L. -o $@
+	${CC} ${CFLAGS} main.o libmyMath.a -L. -o $@
 
 
 libmyMath.a: $(LIBOBJECTS)

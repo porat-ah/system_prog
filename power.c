@@ -11,6 +11,6 @@ double Power(double x , int y){
 }
 
 double Exponent(int x){
-    return power(e,x);
+    return Power(e,x);
 }
 
